@@ -1,3 +1,4 @@
+=======
 # RestClient Example Usage
 
 This example demonstrates how to use the `RestClient` class to interact with a REST API. The `RestClient` class is designed to handle common HTTP methods and manage responses in an organized manner.
@@ -67,3 +68,4 @@ The example above includes basic exception handling for RestClientException and 
 
 License
 This example is provided under the MIT License.
+

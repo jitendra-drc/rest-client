@@ -1,0 +1,29 @@
+{
+    "name": "drc/core",
+    "version": "1.0.1", 
+    "description": "A generic REST API client for PHP", 
+    "type": "library",
+    "keywords": ["REST", "api", "client", "curl", "JSON", "XML"], 
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jitendra Yadav",
+            "email": "jitendra.yadav@drcsystems.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2", 
+        "ext-curl": "*", 
+        "ext-json": "*"
+    }, 
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "drc\\core\\": "src/"
+        }
+    },
+    "require-dev": {
+        "php": ">=7.3", 
+        "phpunit/phpunit": "9.6.x-dev"
+    }
+}

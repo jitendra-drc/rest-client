@@ -3,7 +3,7 @@
 require_once 'RestClient.php'; // Assuming RestClient.php is in the same directory
 
 use Drc\Core\RestClient;
-use Drc\Core\RestClientException;
+use Drc\Core\RestClientException; 
 
 // Example usage:
 
